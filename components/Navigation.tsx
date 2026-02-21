@@ -20,9 +20,9 @@ export default function Navigation() {
   }, []);
 
   const navLinks = [
-    { name: "Services", href: "#services" },
-    { name: "Projects", href: "#projects" },
-    { name: "About", href: "#about" },
+    { name: "CONTACT", href: "#services" },
+    { name: "SERVICES", href: "#projects" },
+    { name: "WORK", href: "#about" },
   ];
 
   const handleLinkClick = (
@@ -74,7 +74,7 @@ export default function Navigation() {
             onClick={(e) => handleLinkClick(e, "#contact")}
             className="ml-4 rounded-full px-8 py-3 text-sm font-semibold border border-white/20 hover:border-brand hover:text-brand hover:bg-brand/5 transition-all duration-300"
           >
-            {`Let's Talk`}
+            {`LET'S TALK`}
           </a>
         </nav>
 
@@ -111,7 +111,7 @@ export default function Navigation() {
                 onClick={(e) => handleLinkClick(e, "#contact")}
                 className="mt-8 rounded-full px-12 py-4 bg-brand text-black font-bold text-lg"
               >
-                {`Let's Talk`}
+                {`LET'S TALK`}
               </a>
             </motion.div>
           )}

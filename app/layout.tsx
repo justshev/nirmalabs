@@ -10,8 +10,11 @@ const outfit = Outfit({
 
 export const metadata: Metadata = {
   title: "Nirmalabs | Digital Agency",
-  description: "A premium digital agency specializing in Digital Marketing, Web Design, AI Engineering, and 3D Modeling.",
+  description:
+    "A premium digital agency specializing in Digital Marketing, Web Design, AI Engineering, and 3D Modeling.",
 };
+
+// add favicon
 
 export default function RootLayout({
   children,
@@ -20,6 +23,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/logo.svg" />
+      </head>
       <body className={`${outfit.variable} antialiased`}>
         <SmoothScroll>{children}</SmoothScroll>
       </body>
