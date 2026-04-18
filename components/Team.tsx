@@ -36,7 +36,7 @@ export default function Team() {
                             The <span className="font-light italic text-brand">Core</span>
                         </h2>
                         <p className="text-xl text-white/50 font-light leading-relaxed">
-                            A collective of industry veterans, artists, and engineers dedicated to absolute perfection. We don't settle for average.
+                            A collective of industry veterans, artists, and engineers dedicated to absolute perfection. We don&apos;t settle for average.
                         </p>
                     </AnimatedSection>
                 </div>

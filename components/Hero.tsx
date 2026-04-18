@@ -187,10 +187,10 @@ export default function Hero() {
 
             <motion.div variants={itemVariants} className="flex gap-6">
               <a
-                href="#projects"
+                href="#about"
                 className="rounded-full bg-brand text-black font-bold px-10 py-5 text-sm md:text-base hover:scale-105 transition-transform duration-300 shadow-[0_0_30px_rgba(180,229,13,0.3)]"
               >
-                Selected Works
+                Featured Works
               </a>
               <a
                 href="#services"
